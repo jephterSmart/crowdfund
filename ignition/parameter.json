@@ -1,0 +1,9 @@
+{
+    "FundMeModule": {
+        "priceFeedAddress": "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+    },
+    "MockV3AggregatorModule": {
+        "initialValue": 200000000000,
+        "decimal": 8
+    }
+}
