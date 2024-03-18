@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Crowdfund fundme</title>
+    </head>
+    <script
+        src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"
+    ></script>
+    <script src="index.js" type="module" defer></script>
+    <body>
+        <h1>Crowfund My Accounts</h1>
+        <button id="btn-connect">Connect</button>
+        <form>
+            <fieldset>
+                <legend>Contract Information</legend>
+                <div>
+                    <button type="button" id="btn-balance">Balance</button>
+                    <label id="balance-value"></label>
+                </div>
+                <div>
+                    <button type="button" for="amountFunded" id="btn-fund">
+                        Fund
+                    </button>
+                    <input id="amountFunded" placeholder="Amount in ether" />
+                </div>
+            </fieldset>
+            <button type="button" id="btn-withdraw">Withdraw</button>
+        </form>
+    </body>
+</html>
